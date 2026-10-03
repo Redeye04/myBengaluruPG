@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth cursor globally */
+* { cursor: default; }
+
+/* Ensure canvas fills the container */
+canvas { display: block; }
+
+/* Custom scrollbar for any future scrollable sections */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #36626A88; border-radius: 3px; }
